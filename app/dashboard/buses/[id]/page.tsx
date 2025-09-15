@@ -15,7 +15,7 @@ const bus23 = {
 function Page() {
   const [detailRoutes, setDetailsRoutes] = useState(false);
   return (
-    <div className="w-full  flex flex-col gap-4 p-8">
+    <div className="w-full dark:bg-[#3E3E3E]  flex flex-col gap-4 p-8">
       <h1 className="text-xl font-semibold p-4">
         BUS NUMBER : <span className="font-sans">{bus23.number}</span>
       </h1>
@@ -33,7 +33,7 @@ function Page() {
       </div>
       <div className="w-full flex justify-start p-6 gap-4 items-center">
         <div className="flex flex-col gap-6 p-4 min-w-92 border rounded-lg bg-slate-100 justify-around items-center">
-          <div className="flex w-full justify-between items-center">
+          <div className="flex w-full dark:text-black justify-between items-center">
             <h1 className="font-semibold font-mono">Revenue</h1>
             <select name="" id="">
               <option value="">Today</option>
@@ -54,7 +54,7 @@ function Page() {
             </button>
           </div>
         </div>
-        <div className="flex flex-col p-6 gap-4 border min-w-92 rounded-lg bg-slate-100 justify-around items-center">
+        <div className="flex flex-col p-6 gap-4 border min-w-92 rounded-lg dark:text-black bg-slate-100 justify-around items-center">
           <div className="flex w-full justify-between items-center">
             <h1 className="font-semibold font-mono">Maintanance</h1>
             <select name="" id="">
@@ -77,8 +77,8 @@ function Page() {
           </div>
         </div>
       </div>
-      <div className="p-6 border flex flex-col gap-4 border-gray-200  max-w-5xl rounded-lg">
-        <h1 className="text-xl font-semibold">Routes</h1>
+      <div className="p-6 border flex flex-col gap-4 dark:text-black border-gray-200  max-w-5xl rounded-lg">
+        <h1 className="text-xl font-semibold dark:text-white">Routes</h1>
         <div className="flex justify-around border p-2 bg-slate-100 rounded-md items-center">
           <h1>Source : {bus23.routes[0]}</h1>
           <h1>Destination : {bus23.routes[bus23.routes.length - 1]}</h1>

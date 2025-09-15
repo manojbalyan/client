@@ -9,7 +9,7 @@ export default function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <div className="flex flex-col bg-blue-100 gap-8 justify-start pt-10 p-4">
+    <div className="flex flex-col bg-blue-100 gap-8  dark:text-black justify-start pt-10 p-4">
       <Link href="/" className="text-center text-xl font-serif font-medium">
         Next
         <br />

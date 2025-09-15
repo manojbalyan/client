@@ -23,7 +23,7 @@ const conductorPercentage =
 
 export default function Page() {
   return (
-    <div className="flex flex-wrap justify-around p-8 gap-8">
+    <div className="flex flex-wrap dark:bg-[#3E3E3E] justify-around p-8 gap-8">
       <div className="flex-grow p-6 pt-4 max-w-4xl">
         <div className="w-full min-h-88 p-4 border rounded-xl border-gray-200 shadow-lg overflow-hidden flex justify-center items-center">
           <iframe
@@ -39,7 +39,7 @@ export default function Page() {
         </div>
 
         <div className="flex flex-wrap justify-around pt-12 gap-8">
-          <div className="flex flex-col p-6 gap-4 border min-w-80 rounded-lg bg-white shadow-lg border-gray-200 justify-around items-center">
+          <div className="flex flex-col p-6 gap-4 border min-w-80 rounded-lg dark:bg-[#3E3E3E] bg-white shadow-lg border-gray-200 justify-around items-center">
             <div className="flex w-full justify-between items-center">
               <h1 className="font-semibold font-mono">Revenue</h1>
               <select className="border-gray-300 rounded-md">
@@ -62,7 +62,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="flex flex-col p-6 gap-4 border min-w-80 rounded-lg bg-white shadow-lg border-gray-200 justify-around items-center">
+          <div className="flex flex-col p-6 gap-4 border min-w-80 rounded-lg dark:bg-[#3E3E3E]  bg-white shadow-lg border-gray-200 justify-around items-center">
             <div className="flex w-full justify-between items-center">
               <h1 className="font-semibold font-mono">Maintenance</h1>
               <select className="border-gray-300 rounded-md">

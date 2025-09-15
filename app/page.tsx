@@ -3,14 +3,14 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="w-full p-8 flex flex-col justify-center items-center">
+    <div className="w-full p-8 dark:bg-[#272727] flex flex-col justify-center items-center">
       <div className="flex w-full justify-between items-center">
         <h1 className="font-serif font-semibold sm:text-xl text-[20px]">
           NEXT <br /> <span className="pl-4">STOP</span>
         </h1>
         <Link
           href="/login"
-          className="sm:pl-3 pl-2  sm:pr-3 pr-2 sm:p-2 p-1 border sm:rounded-md rounded hover:bg-slate-100"
+          className="sm:pl-3 pl-2  sm:pr-3 dark:hover:text-black pr-2 sm:p-2 p-1 border sm:rounded-md rounded hover:bg-slate-100"
         >
           Log In
         </Link>

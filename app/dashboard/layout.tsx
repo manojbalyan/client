@@ -10,7 +10,7 @@ export default function Layout({
   return (
     <div className="flex  w-screen">
       <Sidebar />
-      <div className="flex max-h-screen h-screen w-full gap-3 flex-col justify-start">
+      <div className="flex max-h-screen h-screen w-full  flex-col justify-start">
         <Navbar />
         {children}
       </div>
